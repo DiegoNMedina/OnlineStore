@@ -1,0 +1,584 @@
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Oswald:wght@500&display=swap');
+
+.navbar{
+	width: 100%;
+	max-width: unset;
+	margin:auto;
+}
+ 
+.navbar p {
+	margin-bottom:40px;
+}
+
+.logo img
+{
+  width: 210px;
+  height: 110px;
+}
+
+.banner
+{
+    width: 1210px;
+    height: 300px;
+    border: 3px solid #af0808;
+    margin: auto;
+    background-size: 100% 100%;
+    animation: banner 4s infinite;
+    animation-direction: alternate;
+    text-align: right;
+}
+
+.spacebanner
+{
+   height:220px;
+}
+
+.titulobanner
+{
+    padding: 10px;
+    
+}
+
+.titulobanner
+{
+    padding: 10px;
+    
+}
+
+.titulobanner a{
+    text-decoration: none;
+}
+
+.titulobanner label
+{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+    background-color: yellow;
+    color: #000000;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 1s all ease;
+}
+
+.titulobanner label:hover
+{
+    cursor: pointer;
+    background-color: #9c0d0d;
+    color: #ffffff;
+}
+
+@keyframes banner{
+    0%, 30%
+    {
+        background-image: url(../images/teclado.jpg);
+        opacity: 1;
+    }
+   
+    35%,65%
+    {
+        background-image: url(../images/teclado1.jpg);
+        opacity: 1;
+    }
+    70%, 100%
+    {
+        opacity: 1;
+        background-image: url(../images/teclado2.jpg);
+    }
+}   
+
+.space
+{
+    height: 30px;
+}
+
+/*CARDS*/
+.card
+{
+    background-color: #9c0d0d;
+    font-family: 'Libre Franklin', sans-serif;
+    
+}
+
+
+.card p{
+    color: #ffffff;
+}
+
+.cards-hyperx{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.cards-hyperx .card{
+    width: 350px;
+    height: 300px;
+    border: 1px solid #6b1928;
+    margin: 15px 15px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transform: scale(1);
+    transition: transform 1s;
+    text-align: center;
+    
+}
+
+.card a{
+    width: 70%;
+    height: 30px;
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    border-radius: 20px;
+    transform: scale(1);
+    transition: transform 1s;
+}
+.card h3
+{
+    font-size: 20px;
+    color: white;
+}
+
+.card:hover{
+    border-radius: 25px;
+    color: #fff;
+    transform: scale(1.1);
+    background: #363131;
+    cursor: pointer;
+}
+
+.card a:hover{
+    transform: scale(1.1);
+}
+
+/*images card*/
+.firstcard
+{
+    width: 200px;
+    height: 150px;
+    border-radius: 15px;
+
+}
+
+.secondcard
+{
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+.trcard{
+    width: 130px;
+    height: 120px;
+    border-radius: 15px;
+
+}
+
+/*PC ACCESORIES*/
+.section
+{
+    
+    width: 1343px;
+    color: #ffffff;
+    background-color: #9c0d0d;
+    text-align: center;
+    padding: 40px;
+}
+
+.section label
+{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.imagen-accesorie
+{
+    width: 1100px;
+    background-color: #000000;
+    height: 400px;
+    padding: 30px;
+    align-items: initial;
+    text-align: left;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.imagen-accesorie label
+{
+    border-radius: 5px;
+    background-color: #9c0d0d;
+    font-size: 30px;
+    font-family: 'Fjalla One', sans-serif;
+    line-height: 45px;
+}
+
+.imagen-accesorie h3{
+    font-size: 25px;
+}
+
+.optiones-accesorie
+{
+    margin-left: 140px;
+}
+
+.info-accesorie
+{
+    margin-left: 210px;
+}
+
+.btn-compra
+{
+    margin-left: 190px;
+}
+
+.tituloc
+{
+    background-color: #ffffff;
+    height: 90px;
+    color: #9c0d0d;
+    width: 390px;
+    margin: auto;
+    padding: 20px;
+}
+
+.item
+{
+	height: 5px;
+}
+
+#G502
+{
+    width: 349px;
+    height: 150px;
+    float: left;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#G203
+{
+    width: 309px;
+    height: 205px;
+    float: left;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/*XBOX*/
+.games img
+{
+    border-radius: 10px;
+    cursor: all-scroll;
+
+}
+
+.contenedor-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.contenedor-cards .card{
+    width: 350px;
+    height: 300px;
+    border: 1px solid #6b1928;
+    margin: 15px 15px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transform: scale(1);
+    transition: transform 1s;
+    text-align: center;
+    
+}
+
+.card a{
+    width: 70%;
+    height: 30px;
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    border-radius: 20px;
+    transform: scale(1);
+    transition: transform 1s;
+}
+.card h3
+{
+    font-size: 20px;
+    color: white;
+}
+
+.card1
+{
+    font-size: 40px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    width: 16%;
+    height: 350px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.card1 p{
+    color: #ffffff;
+    font-size: 1.5vw;
+}
+
+
+.card1:hover
+{
+    transform: scale(1.1);
+    background-image: url(../img/serviciose.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/*playstation*/
+.textheadset
+{
+    text-align: center;
+    margin-left: 500px;
+    background-color: #000000;
+    color: #ffffff;
+    height: 500px;
+    line-height : 35px;
+}
+
+.headset img
+{
+    border-radius: 10px;
+    float: left;
+}
+
+.headset
+{
+    border-radius: 10px;
+    margin-left: 30px; 
+    width: 1205px;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.textheadset
+{
+    text-align: center;
+    margin-left: 500px;
+    background-color: #000000;
+    color: #ffffff;
+    height: 500px;
+    line-height : 35px;
+}
+
+/*nintendo*/
+.contenedor-cards2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.contenedor-cards2 .card-nintendo{
+    width: 350px;
+    height: 300px;
+    border: 1px solid #6b1928;
+    margin: 15px 15px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transform: scale(1);
+    transition: transform 1s;
+    text-align: center;
+    
+}
+
+.card-nintendo
+{
+    background-color: #000000;
+    font-family: 'Libre Franklin', sans-serif;
+    
+}
+
+
+.card-nintendo p{
+    color: #ffffff;
+}
+
+.cards-hyperx2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.cards-hyperx2 .card-nintendo{
+    width: 350px;
+    height: 300px;
+    border: 1px solid #6b1928;
+    margin: 15px 15px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transform: scale(1);
+    transition: transform 1s;
+    text-align: center;
+    
+}
+
+.card-nintendo a{
+    width: 70%;
+    height: 30px;
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    border-radius: 20px;
+    transform: scale(1);
+    transition: transform 1s;
+}
+.card-nintendo h3
+{
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.card-nintendo:hover{
+    border-radius: 25px;
+    color: #fff;
+    transform: scale(1.1);
+    background: #363131;
+    cursor: pointer;
+}
+
+.card-nintendo a:hover{
+    transform: scale(1.1);
+}
+
+/*Botones*/
+.btnh
+{
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 30px 0;
+    border: 2px solid #9c0d0d;
+    padding: 14px 60px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+    text-align: center;
+    width: 320px;
+    border-radius: 10px;
+
+}
+.btnh:hover
+{
+    cursor: pointer;
+    background-color: #9c0d0d;
+    color: #ffffff;
+
+}
+.btn-preventa
+{
+   position: relative;
+    display: inline-block;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 10px;
+    text-decoration: none;
+    margin: 30px 0;
+    border: 2px solid yellow;
+    padding: 14px 60px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.btn-preventa:hover
+{
+    cursor: pointer;
+    background-color: yellow;
+    color: black;
+}
+  .btn{
+    position: relative;
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 30px 0;
+    border: 2px solid #9c0d0d;
+    padding: 14px 60px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+    text-align: center;
+    width: 320px;
+    border-radius: 10px;
+  }
+
+  .btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+  }
+/*----------------*/
+
+
+
+/*MARCAS*/
+.marcas
+{
+    background-color: #000000;
+    align-items: center;
+    display: inline-flex;
+    text-align: center;
+
+}
+/*FOOTER*/
+.footer
+{
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+
+}

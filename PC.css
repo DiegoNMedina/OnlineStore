@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Oswald:wght@500&display=swap');
+.space
+{
+    height: 30px;
+}
+.PC
+{
+    
+    width: 1343px;
+    color: #ffffff;
+    background-color: #9c0d0d;
+    text-align: center;
+    padding: 40px;
+}
+
+.PC label
+{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Fjalla One', sans-serif;
+}
+.tituloc
+{
+    background-color: #ffffff;
+    height: 90px;
+    color: #9c0d0d;
+    width: 390px;
+    margin: auto;
+    padding: 20px;
+}
+
+.spacebanner
+{
+   height:220px;
+}
+
+.titulobanner
+{
+    padding: 10px;
+    
+}
+
+.titulobanner a{
+    text-decoration: none;
+}
+.titulobanner label
+{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+    background-color: yellow;
+    color: #000000;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 1s all ease;
+}
+
+.titulobanner label:hover
+{
+    cursor: pointer;
+    background-color: #9c0d0d;
+    color: #ffffff;
+}
+
+.cuadroimagen
+{
+    width: 1100px;
+    background-color: #000000;
+    height: 400px;
+    padding: 30px;
+    align-items: initial;
+    text-align: left;
+    border-radius: 15px;
+    margin: auto;
+    
+}
+
+#imageuno
+{
+    width: 349px;
+    height: 150px;
+    float: left;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#imagedos
+{
+    width: 309px;
+    height: 205px;
+    float: left;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.textheadset
+{
+    text-align: center;
+    margin-left: 500px;
+    background-color: #000000;
+    color: #ffffff;
+    height: 500px;
+    line-height : 35px;
+}
+
+.headset img
+{
+    border-radius: 10px;
+    float: left;
+}
+.headset
+{
+    border-radius: 10px;
+    margin-left: 30px; 
+    width: 1205px;
+    align-items: center;
+    background-color: #ffffff;
+}
+.botonescompra
+{
+    margin-left: 190px;
+}
+.cuadroimagen label
+{
+    border-radius: 5px;
+    background-color: #9c0d0d;
+    font-size: 30px;
+    font-family: 'Fjalla One', sans-serif;
+    line-height: 45px;
+}
+
+
+.cuadroimagen h3{
+    font-size: 25px;
+}
+.info
+{
+    margin-left: 210px;
+}
+
+.espec
+{
+    margin-left: 120px;
+}
+
+.espec1
+{
+    margin-left: 140px;
+}
+
+
+.marcas
+{
+    background-color: #000000;
+    align-items: center;
+    display: inline-flex;
+    text-align: center;
+
+}
+
+.footerbg
+{
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+
+}

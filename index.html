@@ -6,87 +6,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/nav.css">
     <link rel="shortcut icon" href="images/tienda.jpg">
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="js/main.js"></script>
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery.elevatezoom.min.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <title>SoftTech</title>
 </head>
 
 <body>
     <!-- HEADER -->
-    <header>
-        <div class="contenedor">
-            <div class="logo">
-            </div>
-            <nav class="menu">
-                <img src="images/tienda.jpg">
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#pcg">PC</a></li>
-                    <li><a href="#">Xbox</a></li>
-                    <li><a href="#">Playstation</a></li>
-                    <li><a href="#">Nintendo</a></li>
-                </ul>
-            </nav>
-        </div>
+
+    <header class="container">
+        <figure class="logo">
+            <img src="images/navbar.jpg">
+        </figure>
+        <nav>
+            <a href="#" class="item-options">Inicio</a>
+            <a href="#PC" class="item-options">PC</a>
+            <a href="#XBOX" class="item-options">Xbox</a>
+            <a href="#PLAYSTATION" class="item-options">Playstation</a>
+            <a href="#XBOX" class="item-options">Nintendo</a>
+            <a href="#" class="item-options"><i class="fas fa-shopping-cart"></i></a>
+        </nav>
     </header>
-    <!-- END HEADER -->
     <!-- BANNER -->
     <div class="banner">
-        <div class="spacebanner"></div>
-        <div class="titulobanner">
-            <a href="#"><label>¡Compra aquí! - TechSoft</label></a>
+        <div class="btn-banner">
+            <p>comprar</p>
+        </div>
+        <div class="btn-banner">
+            <p>ver carrito</p>
         </div>
     </div>
     <!-- END BANNER -->
-    <div class="space"></div>
+    <!-- END HEADER -->
     <!-- CARDS SERVICES -->
     <div class="cards">
-        <div class="cards-hyperx">
-            <div class="card">
-                <img class="firstcard" src="images/calpha.png">
-                <h3>Cloud Alpha S</h3>
-                <p>Evolucionado con sonido Surround y graves ajustables</p>
-                <a href="#">IR AHORA</a>
-            </div>
-            <div class="card">
-                <img class="secondcard" src="images/RAM-removebg-preview.png">
-                <h3>FURY DDR4 RGB</h3>
-                <p>Muestra tu estilo. Muestra tu FURY</p>
-                <a href="#">IR AHORA</a>
-            </div>
-            <div class="card">
-                <img class="trcard" src="images/CA-removebg-preview.png">
-                <h3>HyperX Cloud Alpha</h3>
-                <p>Más tecnología para menos distorsión</p>
-                <a href="#">IR AHORA</a>
-            </div>
+        <div class="card-hyperx">
+            <img src="images/calpha.png" width="200px" height="150px">
+            <h3>Cloud Alpha S</h3>
+            <p>Evolucionado con sonido Surround y graves ajustables</p>
+            <a href="#">IR AHORA</a>
+        </div>
+        <div class="card-hyperx">
+            <img src="images/RAM-removebg-preview.png" width="200px" height="120px">
+            <h3>FURY DDR4 RGB</h3>
+            <p>Muestra tu estilo. Muestra tu FURY</p>
+            <a href="#">IR AHORA</a>
+        </div>
+        <div class="card-hyperx">
+            <img src="images/CA-removebg-preview.png" width="150px" height="150px">
+            <h3>HyperX Cloud Alpha</h3>
+            <p>Más tecnología para menos distorsión</p>
+            <a href="#">IR AHORA</a>
         </div>
     </div>
-    <!-- END CARD SERVICES -->}
-
+    <!-- END CARD SERVICES -->
     <!-- PC SECCTION -->
     <section id="PC">
         <div class="section">
             <!-- TITLE SECTION -->
-            <div class="tituloc">
+            <div class="title">
                 <label>PC - ACCESORIOS</label>
             </div>
             <!-- END TITLE SECTION -->
-            <div class="space"></div>
             <!-- PRODUCT SECTION -->
-            <div class=imagen-accesorie>
-                <div class="space">
-                    <br><br>
+            <div class=mouse-section>
+                <div class="mouse-image">
+                    <img id="G502" src="images/small/g502.png" data="images/large/g502.png">
                 </div>
-                <div class="item">
-                    <img id="G502" src="images/small/g502.png" alt="" class="imagen" data="images/large/g502.png">
-                </div>
-                <div class="optiones-accesorie">
-                    <div class="info-accesorie">
+                <div class="mouse-options">
+                    <div class="mouse-info">
                         <h3>Mouse de juego Logitech Hero G Series G502 negro</h3>
                         <br>
                         <label>$1150 - IVA INCLUIDO</label>
@@ -98,24 +87,20 @@
                             <li>Cuenta con 11 botones</li>
                         </ul>
                     </div>
-                    <div class="btn-compra">
-                        <a href="" class="btn">Comprar</a>
-                        <a href="" class="btn">Agregar al carrito</a>
+                    <div class="mouse-buy">
+                        <a href="" class="mouse-btn">Comprar</a>
+                        <a href="" class="mouse-btn">Agregar al carrito</a>
                     </div>
                 </div>
             </div>
             <!-- END PRODUCT SECTION -->
-            <div class="space"></div>
             <!-- PRODUCT SECTION -->
-            <div class=imagen-accesorie>
-                <div class="space">
-                    <br><br>
+            <div class="mouse-section">
+                <div class="mouse-image">
+                    <img id="G203" src="images/small/g203.png" data="images/large/g203.png">
                 </div>
-                <div class="item">
-                    <img id="G203" src="images/small/g203.png" alt="" class="imagen" data="images/large/g203.png">
-                </div>
-                <div class="optiones-accesorie">
-                    <div class="info-accesorie">
+                <div class="mouse-options">
+                    <div class="mouse-info">
                         <h3>Mouse de juego Logitech G203 negro</h3>
                         <br>
                         <label>$1150 - IVA INCLUIDO</label>
@@ -127,85 +112,67 @@
                             <li>Cuenta con 6 botones</li>
                         </ul>
                     </div>
-                    <div class="btn-compra">
-                        <a href="" class="btn">Comprar</a>
-                        <a href="" class="btn">Agregar al carrito</a>
+                    <div class="mouse-buy">
+                        <a href="" class="mouse-btn">Comprar</a>
+                        <a href="" class="mouse-btn">Agregar al carrito</a>
                     </div>
                 </div>
             </div>
             <!-- END PRODUCT SECTION -->
         </div>
     </section>
-    <!-- END PC SECTION -->
-    <div class="space"></div>
-    <!--XBOX SECTION-->
-    <section id="xbox">
+    <section id="XBOX">
         <div class="section">
-            <!-- TITLE SECTION -->
-            <div class="tituloc">
+            <div class="title">
                 <label>XBOX</label>
             </div>
-            <!-- END TITLE SECTION -->
-            <div class="space"></div>
-            <div class="contenedor-juegos">
-                <div class="games">
-                    <div class="gamesheader">
-                        <h1>¡DISFRUTA LOS MEJORES LANZAMIENTOS DEL 2020!
-                        </h1>
-                    </div>
-                    <div class="space"></div>
-                    <div class="contenedor-cards">
-                        <div class="card1">
-                            <img src="images/Games/HaloInfinite.jpg" height="190px" width="90%">
-                            <p>Halo Infinite</p>
-                            <p>(Estreno 2020)</p>
-                            <a href="" class="btn-preventa">Preventa</a>
-                        </div>
-                        <div class="card1">
-                            <img src="images/Games/ResidentEvil3.webp" height="190px" width="90%">
-                            <p>Resident Evil 3</p>
-                            <p>$1,299.99</p>
-                            <a href="" class="btn-preventa">Preventa</a>
-                        </div>
-                        <div class="card1">
-                            <img src="images/Games/Fifa2021.jpg" height="190px" width="90%">
-                            <p>Fifa 2021</p>
-                            <p>(Estreno 2020)</p>
-                            <a href="" class="btn-preventa">Preventa</a>
-                        </div>
-                        <div class="card1">
-                            <img src="images/Games/Wasteland3.jpg" height="190px" width="90%">
-                            <p>Wasteland 3</p>
-                            <p>(Estreno 2020)</p>
-                            <a href="" class="btn-preventa">Preventa</a>
-                        </div>
-                        <div class="card1">
-                            <img src="images/Games/WatchDogs.jpg" height="160px" width="80%">
-                            <p>Watch Dogs: Legion</p>
-                            <p>(Estreno 2020)</p>
-                            <a href="" class="btn-preventa">Preventa</a>
-                        </div>
-                    </div>
+            <h2 class="title-xbox">¡DISFRUTA LOS MEJORES LANZAMIENTOS DEL 2020! </h2>
+            <div class="content-games">
+                <div class="game">
+                    <img src="images/Games/HaloInfinite.jpg" height="190px" width="90%">
+                    <p>Halo Infinite</p>
+                    <p>(Estreno 2020)</p>
+                    <a href="" class="btn-preventa">Preventa</a>
+                </div>
+                <div class="game">
+                    <img src="images/Games/ResidentEvil3.webp" height="190px" width="90%">
+                    <p>Resident Evil 3</p>
+                    <p>$1,299.99</p>
+                    <a href="" class="btn-preventa">Preventa</a>
+                </div>
+                <div class="game">
+                    <img src="images/Games/Fifa2021.jpg" height="190px" width="90%">
+                    <p>Fifa 2021</p>
+                    <p>(Estreno 2020)</p>
+                    <a href="" class="btn-preventa">Preventa</a>
+                </div>
+                <div class="game">
+                    <img src="images/Games/Wasteland3.jpg" height="190px" width="90%">
+                    <p>Wasteland 3</p>
+                    <p>(Estreno 2020)</p>
+                    <a href="" class="btn-preventa">Preventa</a>
+                </div>
+                <div class="game">
+                    <img src="images/Games/WatchDogs.jpg" height="190px" width="80%">
+                    <p>Watch Dogs: Legion</p>
+                    <p>(Estreno 2020)</p>
+                    <a href="" class="btn-preventa">Preventa</a>
                 </div>
             </div>
         </div>
     </section>
-    <!-- END SECTION XBOX -->
-
+    <!-- END PC SECTION -->
     <!-- PLAYSTATION SECTION -->
-    <section id="playstation">
+    <section id="PLAYSTATION">
         <div class="section">
-            <!-- TITLE SECTION -->
-            <div class="tituloc">
+            <div class="title">
                 <label>PLAYSTATION</label>
             </div>
-            <!-- END TITLE SECTION -->
-            <div class="space"></div>
             <div class="headset">
-                <img src="images/head.gif">
-                <div class="textheadset">
-                    <br>
-                    <br>
+                <div class="headset-image">
+                    <img src="images/head.gif">
+                </div>
+                <div class="headset-info">
                     <h2>HYPERX CLOUD STINGER PARA PS4</h2>
                     <h3>Características destacadas</h3>
                     <ul>
@@ -217,49 +184,56 @@
                         <li>Control de volumen integrado</li>
                         <li>Micrófono con cancelación de ruido que al girar se pone en modo mudo</li>
                     </ul>
-                    <a href="" class="btnh">Comprar</a>
-                    <a href="" class="btnh">Agregar al carrito</a>
+                    <div class="headset-buy">
+                        <a href="" class="mouse-btn">Comprar</a>
+                        <a href="" class="mouse-btn">Agregar al carrito</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- END PLAYSTATIONS SECTION -->
-
     <!-- NINTENTO SECTION -->
-    <section id="nintendo">
+    <section id="NINTENDO">
         <div class="section">
-            <div class="tituloc">
+            <div class="title">
                 <label>NINTENDO</label>
             </div>
-            <div class="space"></div>
-            <div class="accesorios-nintendo">
-                <div class="cards-nintendo">
-                    <div class="contenedor-cards2">
-                        <div class="card-nintendo">
-                            <img src="images/Cloud Earbuds.webp" w>
-                            <h3>Cloud Earbuds</h3>
-                            <p>Ideal para Nintendo Switch™</p>
-                            <a href="#">IR AHORA</a>
-                        </div>
-                        <div class="card-nintendo">
-                            <img src="images/ChargePlay.webp">
-                            <h3>ChargePlay Quad</h3>
-                            <p>4 puertos de carga Joy-Con™</p>
-                            <a href="#">IR AHORA</a>
-                        </div>
-                        <div class="card-nintendo">
-                            <img src="images/Clutch.webp">
-                            <h3>ChargePlay Clutch for Nintendo Switch</h3>
-                            <p>¡No pares de jugar! Batería de 6000mAh</p>
-                            <a href="#">IR AHORA</a>
-                        </div>
+            <div class="nintendo-accesories">
+                <div class="nintendo-card">
+                    <div class="nintendo-info">
+                        <img src="images/Cloud Earbuds.webp" w>
+                        <h3>Cloud Earbuds</h3>
+                        <p>Ideal para Nintendo Switch™</p>
+                    </div>
+                    <div class="nintendo-buy">
+                        <a href="#" class="mouse-btn">IR AHORA</a>
+                    </div>
+                </div>
+                <div class="nintendo-card">
+                    <div class="nintendo-info">
+                        <img src="images/ChargePlay.webp">
+                        <h3>ChargePlay Quad</h3>
+                        <p>4 puertos de carga Joy-Con™</p>
+                    </div>
+                    <div class="nintendo-buy">
+                        <a href="#" class="mouse-btn">IR AHORA</a>
+                    </div>
+                </div>
+                <div class="nintendo-card">
+                    <div class="nintendo-info">
+                        <img src="images/Clutch.webp">
+                        <h3>ChargePlay Clutch for Nintendo Switch</h3>
+                        <p>¡No pares de jugar! Batería de 6000mAh</p>
+                    </div>
+                    <div class="nintendo-buy">
+                        <a href="#" class="mouse-btn">IR AHORA</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- END NINTENDO SECTION -->
-
     <!-- FOOTER -->
     <footer class="footer">
         <div class="space"></div>
@@ -267,16 +241,16 @@
             <img src="images/Marcas/log.png" width="200" height="80">
             <img src="images/Marcas/Hyperx.png" width="160" height="50">
             <img src="images/Marcas/razer.jpg" width="180" height="80">
-            <img src="images/Marcas/corsair.png" width="190" height="90">
         </div>
         <h4>TechSoft / Calz. Ignacio Zaragoza No.410, Corredor Industrial la Ciénega, 72220 Puebla, Pue.</h4>
-        <h4>222 227 6709 / Contacto@TechSoft.com</h4>
-        Copyright &copy;
-        <script>document.write(new Date().getFullYear());</script> All rights reserved | <a
-            href="https://diegomedina.ml" style="text-decoration: none; color:#fff;" target="_blank">Diego Medina</a>
+        <h4>222 227 6709 / contacto@TechSoft.com</h4>
+        <h4>Copyright &copy;
+            <script>document.write(new Date().getFullYear());</script> All rights reserved | <a
+                href="https://diegomedina.ml" style="text-decoration: none; color:#fff;" target="_blank">Diego
+                Medina</a>
+        </h4>
     </footer>
     <!-- END FOOTER -->
-    <script type="text/javascript" src="js/lupa.js"></script>
 </body>
 
 </html>

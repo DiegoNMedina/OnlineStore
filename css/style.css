@@ -67,7 +67,7 @@ label {
 
 .btn-banner {
     padding: 10px;
-    border: 1px solid #fff;
+    animation: btn-second 3s infinite linear;
     height: 50px;
     width: 250px;
     text-align: center;
@@ -77,12 +77,51 @@ label {
     text-transform: uppercase;
 }
 
+@keyframes slidebg {
+    to {
+      background-position:20vw;
+    }
+  }
+@keyframes btn-second {
+    0%{
+        border: 3px solid transparent;
+        border-right: 3px solid #9c0d0d;
+        border-left: 3px solid #9c0d0d;
+
+    } 25%{
+        border: 3px solid transparent;
+        border-top: 3px solid #9c0d0d;
+        border-bottom: 3px solid #9c0d0d;
+
+    } 50% {
+        border: 3px solid transparent;
+        border-right: 3px solid #9c0d0d;
+        border-left: 3px solid #9c0d0d;
+
+    } 75%{
+        border: 3px solid transparent;
+        border-top: 3px solid #9c0d0d;
+        border-bottom: 3px solid #9c0d0d;
+
+    } 100% {
+        border: 3px solid transparent;
+        border-right: 3px solid #9c0d0d;
+        border-left: 3px solid #9c0d0d;
+    }
+}
 .btn-banner:hover {
-    border: 1px solid #fff;
     color: #fff;
     cursor: pointer;
-    background: #eb0505;
-    opacity: 0.9;
+    background-image:     linear-gradient(
+        to right, 
+        #9c0d0d,
+        #000, 
+        #9c0d0d,
+        #000,
+        #9c0d0d,
+        #000
+      );
+    animation:slidebg 2s linear infinite;
 }
 
 @keyframes banner{
@@ -159,6 +198,7 @@ label {
     color: #fff;
     background: #363131;
     cursor: pointer;
+    transition:  background-color 2s ease-out;
 }
 
 /* PC */
@@ -228,6 +268,7 @@ label {
     cursor: pointer;
     background-color: white;
     color: black;
+    transition:  background-color 2s ease-out;
   }
 
   /* XBOX */
